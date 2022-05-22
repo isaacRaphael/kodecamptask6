@@ -63,7 +63,7 @@ const handleLogin = async () => {
                 <input
                 value={logPassword} 
                 onChange={e=>setLogPasword(e.target.value)}
-                type="text"  placeholder='Password' required className='border-b-2 w-[75%] md:w-1/2 mt-4 p-4'/><span><i className="fa-solid fa-lock text-gray-700"></i></span>
+                type="password"  placeholder='Password' required className='border-b-2 w-[75%] md:w-1/2 mt-4 p-4'/><span><i className="fa-solid fa-lock text-gray-700"></i></span>
             </div>
             
             <div className='text-blue-500 w-[50%] flex justify-end mt-4 hover:[cursor:pointer]'><h1><span className='text-gray-300 mr-2'>No account ?</span><Link to="/register">Register</Link></h1></div>
